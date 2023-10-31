@@ -1,0 +1,16 @@
+.menu {
+  display: flex;
+  background-color: white;
+  color: black;
+  gap: 20px;
+  justify-content: space-around;
+  padding: 20px;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  display: inline-block;
+  gap: 20px;
+  padding: 36px;
+}
