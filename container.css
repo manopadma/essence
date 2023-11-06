@@ -1,0 +1,24 @@
+.dress-content{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.col1{
+    position: relative;
+}
+.Clothing-heading{
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%,-50%);
+    color: black;
+    font-weight: bold;
+    font-size: 28px;
+}
+.Clothing-heading:hover{
+    color: blue;
+}
+.img-cls{
+    opacity: 0.5;
+}
