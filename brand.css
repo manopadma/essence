@@ -1,0 +1,14 @@
+.brand-block{
+    position: relative;
+    z-index: 1;
+    background-color: #f5f7f9;
+    padding: 100px 5%;
+}
+.brand{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content:center;
+
+}
+

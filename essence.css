@@ -25,10 +25,10 @@ nav-bar ul li:hover {
   padding: 5px;
   text-align: center;
 }
-.main-banner {
-  display: flex;
+.main-banner{
+  position: relative;
 }
-.icon {
-  display: flex;
-  gap: 15px;
+.main-content{
+  position: absolute ;
+  top: 30px;
 }

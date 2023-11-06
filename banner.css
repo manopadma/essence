@@ -1,0 +1,21 @@
+.mainbanner{
+    display: flex;
+    position: relative;
+}
+.main-content {
+  position: absolute;
+  top: 184px;
+  left: 461px;
+  padding: 9px;
+}
+.view-btn{
+  border: none;
+  display: inline-block;
+  height: 22px;
+  width: 186px;
+  background-color: blue;
+  color: white;
+  padding: 24px;
+  text-align: center;
+  font-size: 25px;
+}
