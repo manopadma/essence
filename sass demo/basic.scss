@@ -1,0 +1,12 @@
+p{
+  color: brown;
+  font-size: 30px;
+  @import $font-color;
+}
+@media(max-width:1000px)
+{
+  p{
+    color: black;
+    font-size: 30px;
+  }
+}

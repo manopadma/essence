@@ -1,0 +1,35 @@
+.footer-area{
+    display: flex;
+    background-color: black;
+    position: relative;
+    justify-content: space-around;
+}
+.footer-list{
+    display: flex;
+    gap: 10px;
+    color: azure;
+}
+.footer-list2{
+    display: grid;
+    grid-template-rows: 5px;
+    color: azure;
+}
+.footer-list3{
+    display: grid;
+    grid-template-rows: 5px;
+    color: azure;
+}
+.subcribe{
+    display: flex;
+}
+.last-row{
+    display: flex;
+}
+.footer-icon{
+    display: flex;
+    gap: 10px;
+}
+.last-row2{
+    display: flex;
+    justify-content: center;
+}
