@@ -1,3 +1,38 @@
+/* menubar */
+.header {
+    display: flex;
+    position: sticky;
+    justify-content: space-around;
+  
+    margin: 0px;
+  }
+  .nav-bar ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  .nav-bar ul li {
+    display: inline-block;
+  }
+  .nav-bar ul li:hover {
+    color: brown;
+  }
+  .view-btn {
+    border: 2px solid grey;
+    height: 20px;
+    width: 50px;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    text-align: center;
+  }
+  .main-banner{
+    position: relative;
+  }
+  .main-content{
+    position: absolute ;
+    top: 30px;
+  }
 /* 1st division */
 .mainbanner{
     display: flex;
@@ -28,6 +63,7 @@
     gap: 10px;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 30px;
 }
 .col1{
     position: relative;
@@ -53,6 +89,7 @@
     flex-wrap: wrap;
     position: relative;
     justify-content: center;
+    margin-top: 65px;
 }
 .offer-content{
     position: absolute;
@@ -62,16 +99,17 @@
 .offer-img{
     position: relative;
 }
-.btn{
+.view-btn {
     border: none;
-    height: 12px; 
-    width: 112px; 
-    text-align: center; 
-    padding: 16px;
+    height: 13px;
+    width: 140px;
+    text-align: center;
+    padding: 26px;
     background-color: blue;
     color: white;
+    font-size: 18px;
 }
-.btn:hover{
+.view-btn :hover{
 background-color: rgb(201, 43, 96);
 }
 /* brand division */
@@ -80,25 +118,66 @@ background-color: rgb(201, 43, 96);
     z-index: 1;
     background-color: #f5f7f9;
     padding: 100px 5%;
+    margin-top: 65px;
 }
 .brand{
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
-    justify-content:center;
+    justify-content: space-around;
 
 }
 /* collection division */
 .popular-img
 {
     display: flex;
+    position: relative;
+    gap: 5px;
+    justify-content: space-around;
+    margin-top: 65px;
+}
+.brand-name{
+    position: absolute;
+    left: 122px;
+    bottom: -111px;
+    font-size: 16px;
+}
+    
+.brand-name1{
+    position: absolute;
+    bottom: -107px;
+    left: 582px;
+    font-size: 15px;
+}
+
+
+.brand-name2{
+    position: absolute;
+    bottom: -85px;
+    top: 343px;
+    left: 1074px;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+.brand-name3{
+    line-height: 17.5px;
+    position: absolute;
+    right: 100px;
+    bottom: -106px;
+    left: 1573px;
+    font-size: 15px;
 }
 /* footer division */
 .footer-area{
     display: flex;
-    background-color: black;
+    background-color: rgb(22 15 15 / 87%);
     position: relative;
     justify-content: space-around;
+    margin-top: 129px;
+}
+.footer-img{
+    padding-top: 23px;
 }
 .footer-list{
     display: flex;
@@ -107,19 +186,21 @@ background-color: rgb(201, 43, 96);
 }
 .footer-list2{
     display: grid;
-    grid-template-rows: 5px;
+    grid-template-rows: 63px;
     color: azure;
 }
+
 .footer-list3{
     display: grid;
-    grid-template-rows: 5px;
+    grid-template-rows: 62px;
     color: azure;
 }
+
 .subcribe{
-    display: flex;
+    display: grid;
 }
 .last-row{
-    display: flex;
+    display: grid;
 }
 .footer-icon{
     display: flex;
