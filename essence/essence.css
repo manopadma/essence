@@ -60,7 +60,7 @@
 /* second division */
 .dress-content{
     display: flex;
-    gap: 10px;
+    gap: 30px;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 30px;
@@ -172,9 +172,7 @@ background-color: rgb(201, 43, 96);
 .footer-area{
     display: flex;
     background-color: rgb(22 15 15 / 87%);
-    position: relative;
     justify-content: space-around;
-    margin-top: 129px;
 }
 .footer-img{
     padding-top: 23px;
@@ -209,4 +207,20 @@ background-color: rgb(201, 43, 96);
 .last-row2{
     display: flex;
     justify-content: center;
+}
+.popular-products-main{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+/* section */
+.second-main-container{
+        width: 85%;
+            border: 1px solid red;
+            margin: auto;
+}
+
+.img-class{
+    background-image: url('https: //preview.colorlib.com/theme/essence/img/bg-img/bg-1.jpg');
 }
