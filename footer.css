@@ -1,5 +1,5 @@
 .footer-area{
-    display: flex;
+   
     background-color: rgb(22 15 15 / 87%);
     position: relative;
     margin-top: 129px;
@@ -7,9 +7,10 @@
     justify-content: center;
     width: 100%;
 }
-.footer-part1{
+.footer-part1 {
     display: flex;
     gap: 20px;
+    justify-content: center;
 }
 .footer-img{
     padding-top: 23px;
@@ -22,15 +23,14 @@
     margin-left: 14px;
 }
 .footer-list2 {
-
     color: azure;
-    margin-left: 21px;
+    margin-left: 64px;
+   
 }
 
 .footer-list3 {
-    
     color: azure;
-    margin-left: 15px;
+    margin-left: 120px;
 }
 .subcribe-container{
     display: grid;
@@ -38,14 +38,23 @@
 .subcribe{
     display: flex;
 }
-.last-row{
+.last-row {
     display: flex;
+    margin-left: 582px;
 }
-.footer-icon{
+
+
+.footer-icon {
     display: flex;
-    gap: 10px;
+    gap: 25px;
+    margin-left: 178px;
 }
-.last-row2{
+
+
+.last-row2 {
     display: flex;
     justify-content: center;
+    margin-left: "-80px";
+    padding: 42px;
+   
 }
