@@ -1,0 +1,31 @@
+.main-head{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+
+}
+.header1{
+            display: flex;
+        margin-left: 120px;
+        border: 1px black;
+}
+.header2{
+    display: flex;
+    margin-right: 120px;
+}
+.icon{
+    gap: 10px;
+}
+.nav-bar ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  .nav-bar ul li {
+    display: inline-block;
+  }
+  .nav-bar ul li:hover {
+    color: brown;
+  }
+  .heart{
+    border: 2px solid grey;  }
