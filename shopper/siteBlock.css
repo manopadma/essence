@@ -1,0 +1,17 @@
+.site-block{
+    display: flex;
+    justify-content: space-around;
+    background-color: ;
+}
+.site-text1{
+    display: flex;
+    gap: 5px;
+}
+.site-text2 {
+    display: flex;
+    gap: 5px;
+}
+.site-text3 {
+    display: flex;
+    gap: 5px;
+}
