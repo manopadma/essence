@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        var collegeDept = ["cse", "it", "ece"];
+        var collegeName = "pondicherry university"
+
+        // for of
+        // for (let items of collegeDept) {
+        //     console.log(items, "for of loop with array")
+        // }
+
+        // for (let name of collegeName) {
+        //     console.log(name, "for of loop with string")
+        // }
+
+        // for-in
+        // for (let data in collegeDept) {
+        //     console.log(collegeDept[data], "for in loop")
+        // }
+
+        // for-each
+        collegeDept.forEach(function (departmentName) {
+            console.log(departmentName, "for each")
+        })
+
+
+        // map()
+        var numberArray = [2, 13, 78, 21];
+        var resultOfMap = numberArray.map(function (num) {
+            // console.log(num * 2)
+            return num * 2;
+        })
+
+        console.log(resultOfMap)
+
+
+
+    </script>
+
+</body>
+
+</html>

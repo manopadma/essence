@@ -1,0 +1,18 @@
+.DisImgtxt {
+  display: flex;
+}
+.banner-btn {
+  border: none;
+  height: 38px;
+  width: 130px;
+  text-align: center;
+  background-color: blueviolet;
+  color: white;
+  font-size: 15px;
+  margin-top: 31px;
+  padding-top: 13px;
+}
+.discountMain {
+  justify-content: center;
+ 
+}
