@@ -1,4 +1,17 @@
-.footerMain {
+.inner-navigators {
+  display: flex;
+  flex-direction: column;
+}
+.main-navigators {
+  display: flex;
+  justify-content: space-between;
+}
+.main-footer {
+  width: 80%;
+  margin: auto;
+}
+
+/* .footerMain {
   display: flex;
 }
 .navFooter {
@@ -67,4 +80,4 @@
       
     }
   }
-}
+} */

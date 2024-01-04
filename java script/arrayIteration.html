@@ -10,37 +10,99 @@
 <body>
 
     <script>
-        var collegeDept = ["cse", "it", "ece"];
-        var collegeName = "pondicherry university"
 
-        // for of
-        // for (let items of collegeDept) {
-        //     console.log(items, "for of loop with array")
-        // }
 
-        // for (let name of collegeName) {
-        //     console.log(name, "for of loop with string")
-        // }
+        // filter()
+        var students = [
+            {
+                regNo: 1,
+                name: "person 1",
+                mark: 230
+            },
+            {
+                regNo: 2,
+                name: "person 2",
+                mark: 433
+            },
+            {
+                regNo: 3,
+                name: "person 3",
+                mark: 469
+            },
+            {
+                regNo: 4,
+                name: "person 4",
+                mark: 210
+            },
+            {
+                regNo: 5,
+                name: "person 5",
+                mark: 356
+            },
+        ]
 
-        // for-in
-        // for (let data in collegeDept) {
-        //     console.log(collegeDept[data], "for in loop")
-        // }
+        var filteredData = students.filter(data => data.regNo == 3)
+        var filteredData1 = students.filter(data => data.mark > 210)
+        console.log(filteredData1, "filteredData1")
 
-        // for-each
-        collegeDept.forEach(function (departmentName) {
-            console.log(departmentName, "for each")
+
+        // reduce() -- returns into single value
+
+        var amount = [3500, 9000, 5000, 2700];
+        var finalValue = amount.reduce((acc, cur) => {
+            return acc + cur + 1;
         })
 
+        console.log(finalValue, "finalValue")
 
-        // map()
-        var numberArray = [2, 13, 78, 21];
-        var resultOfMap = numberArray.map(function (num) {
-            // console.log(num * 2)
-            return num * 2;
-        })
 
-        console.log(resultOfMap)
+
+        // regular expression  - regex
+        // pattern
+
+
+        // hoisting
+
+        a = 10;
+        b = 12
+        console.log(a + b)
+        var b;
+        var a;
+
+
+
+
+        // var collegeDept = ["cse", "it", "ece"];
+        // var collegeName = "pondicherry university"
+
+        // // for of
+        // // for (let items of collegeDept) {
+        // //     console.log(items, "for of loop with array")
+        // // }
+
+        // // for (let name of collegeName) {
+        // //     console.log(name, "for of loop with string")
+        // // }
+
+        // // for-in
+        // // for (let data in collegeDept) {
+        // //     console.log(collegeDept[data], "for in loop")
+        // // }
+
+        // // for-each
+        // collegeDept.forEach(function (departmentName) {
+        //     console.log(departmentName, "for each")
+        // })
+
+
+        // // map()
+        // var numberArray = [2, 13, 78, 21];
+        // var resultOfMap = numberArray.map(function (num) {
+        //     // console.log(num * 2)
+        //     return num * 2;
+        // })
+
+        // console.log(resultOfMap)
 
 
 

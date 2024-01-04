@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        function checkNumber(a) {
+            try {
+                if (a == 10) {
+                    throw "a is equal to 10"
+                }
+            } catch (error) {
+                console.log(error)
+            }
+        }
+        checkNumber(10)
+
+        // call back - we can pass a function into another function like an argument
+
+
+        function addition(n1, n2, cb) {
+            const c = n1 + n2;
+            cb(c)
+        }
+        function displayOutput(addValue) {
+            console.log(addValue, "addition value")
+        }
+        addition(12, 13, displayOutput)
+        // function f1() {
+        //     console.log("function 1 is working")
+        // }
+        // function f2() {
+        //     console.log("function 2 is working")
+        //     f1()
+        // }
+        // f2()
+
+
+
+        function general() {
+            setTimeout(() => {
+                console.log("setTimeOut is working")
+            }, 5000)
+        }
+        general()
+
+
+        function general1() {
+            setInterval(() => {
+                console.log("setInterval is working")
+            }, 5000)
+        }
+        // general1()
+
+
+        function greet() {
+            console.log('Hello world');
+        }
+
+        function sayName(name) {
+            console.log('Hello' + ' ' + name);
+        }
+
+        // calling the function
+        setTimeout(greet, 2000);
+        sayName('John');
+
+        console.log( i + `${ "*" }` + 4 + `${"="}`  )
+    </script>
+
+</body>
+
+</html>

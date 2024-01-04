@@ -1,0 +1,23 @@
+.card1 {
+  height: 350px;
+  width: 300px;
+  border: 2px solid grey;
+}
+.card2 {
+  height: 350px;
+  width: 300px;
+  border: 2px solid grey;
+}
+.card3 {
+  height: 350px;
+  width: 300px;
+  border: 2px solid grey;
+}
+.mainProduct {
+  display: flex;
+  justify-content: space-around;
+}
+.text1 {
+  align-items: center;
+  justify-content: space-around;
+}
