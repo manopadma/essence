@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Document Object Model</title>
+</head>
+
+<body>
+    <!-- getElementById  and getElementByTagName-->
+
+    <div id="mainHeading">
+
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus dolorem neque quos eveniet animi
+            porro.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    <p id="demo1"></p>
+    <script>
+        const data = document.getElementById('mainHeading');
+        const data1 = data.getElementsByTagName('p');
+        document.getElementById("demo1").innerHTML =
+            'The first paragraph (index 0) inside "main" is: ' + data1[0].innerHTML;
+
+    </script>
+
+</body>
+
+</html>

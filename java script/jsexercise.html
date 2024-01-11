@@ -17,50 +17,50 @@
         // console.log("avgFinal", avgFinal);
 
         // sum of array value
-        // function SumOfArray(numArr) {
-        //     let sum = 0;
+        function SumOfArray(numArr) {
+            let sum = 0;
 
-        //     for (let i = 0; i < numArr.length; ++i) {
-        //         sum += numArr [i];
-        //     }
+            for (let i = 0; i < numArr.length; ++i) {
+                sum += numArr [i];
+            }
 
-        //     return sum;
-        // }
-
-
-        // const array = [10, 20, 30, 40];
+            return sum;
+        }
 
 
-        // const sum = SumOfArray(array);
+        const array = [10, 20, 30, 40];
 
 
-        // console.log(`Sum of the array elements: ${sum}`);
+        const sum = SumOfArray(array);
+
+
+        console.log(`Sum of the array elements: ${sum}`);
 
 
         // Multiplication table
 
-        var tablesNum = prompt("Enter the table value")
-        for (let i = 1; i <= 10; i++) {
-            let d = i * tablesNum;
-            console.log(i + `${"*"}` + tablesNum + `${"="}` + d)
-        }
-
-        // Maximum value of array
-        // var arrayVal = [42, 5, 6, 9, 10];
-        // function findMax(arr) {
-
-        //     let maxValue = arr[0];
-        //     for (let i = 1; i < arr.length; ++i) {
-        //         if (arr[i] > maxValue) {
-        //             maxValue = arr[i];
-
-        //         }
-        //     }
+        // var tablesNum = prompt("Enter the table value")
+        // for (let i = 1; i <= 10; i++) {
+        //     let d = i * tablesNum;
+        //     console.log(i + `${"*"}` + tablesNum + `${"="}` + d)
         // }
 
-        // var maxValue = findMax(arrayVal);
+        // Maximum value of array
+        var arrayVal = [42, 5, 6, 9, 10];
+        function findMax(arr) {
 
-        // console.log(maxValue, "Maximum value of array");
+            let maxValue = arr[0];
+            for (let i = 1; i < arr.length; ++i) {
+                if (arr[i] > maxValue) {
+                    maxValue = arr[i];
+
+                }
+            }
+        }
+
+         findMax(arrayVal);
+
+        console.log(maxValue, "Maximum value of array");
         // // Minimum value of array
         // var arrayVal1 = [42, 5, 6, 9, 10];
         // function findMin(arr) {
@@ -114,55 +114,72 @@
 
 
         // Swap of two numbers
-        function swapTwoNum(val1, val2) {
-            [val1, val2] = [val2, val1]
-            return [val1, val2]
+        // function swapTwoNum(val1, val2) {
+        //     [val1, val2] = [val2, val1]
+        //     return [val1, val2]
 
-        }
-        let num1 = 12, num2 = 15;
-        console.log(`Before swapping: num1 = ${num1}, num2 = ${num2}`);
-        [num1, num2] = swapTwoNum(num1, num2)
-        console.log(`After swapping: num1=${num1},num2 =${num2}`);
-        // Biggest of 3 numbers
-        function bigNumbers(a, b, c) {
-            if (a >= b && b >= c) {
-                return a;
-            } else if (b >= a && b >= c) {
-                return b;
+        // }
+        // let num1 = 12, num2 = 15;
+        // console.log(`Before swapping: num1 = ${num1}, num2 = ${num2}`);
+        // [num1, num2] = swapTwoNum(num1, num2)
+        // console.log(`After swapping: num1=${num1},num2 =${num2}`);
+        // // Biggest of 3 numbers
+        // function bigNumbers(a, b, c) {
+        //     if (a >= b && b >= c) {
+        //         return a;
+        //     } else if (b >= a && b >= c) {
+        //         return b;
 
-            } else {
-                return c;
+        //     } else {
+        //         return c;
+        //     }
+        // }
+        // let a, b, c;
+        // let final = bigNumbers(10, 30, 5)
+        // console.log(final, "The biggest number in given value");
+
+        // // Fibonacci series
+
+        // function findFibo(n) {
+        //     let n1 = 0, n2 = 1, n3;
+        //     console.log(`Fibonacci series up to ${n} terms:`);
+        //     for (let i = 0; i <= n; i++) {
+        //         console.log(n1);
+        //         n3 = n1 + n2;
+        //         n1 = n2;
+        //         n2 = n3;
+        //     }
+        // }
+        // findFibo(15)
+        // // Factorial number
+        // function findFactorial(p) {
+        //     if (p === 0 || p === 1) {
+        //         return 1;
+
+        //     } else {
+        //         return p * findFactorial(p - 1)
+        //     }
+        // }
+        // let value = 5
+        // let result = findFactorial(value)
+        // console.log(`Factorial of ${value} is: ${result}`);
+
+
+        // program to check if the string is palindrome or not
+
+        function findPalindrome(str) {
+            const val = str.length;
+            for (let i = 0; i < val / 2; i++) {
+                if (str[i] !== str[val - 1 - i]) {
+                    return 'It is not a palindrome';
+                }
             }
+            return 'It is a palindrome';
         }
-        let a, b, c;
-        let final = bigNumbers(10, 30, 5)
-        console.log(final, "The biggest number in given value");
+        const str = prompt('Enter a string: ');
+        const value = findPalindrome(str);
 
-        // Fibonacci series
-
-        function findFibo(n) {
-            let n1 = 0, n2 = 1, n3;
-            console.log(`Fibonacci series up to ${n} terms:`);
-            for (let i = 0; i <= n; i++) {
-                console.log(n1);
-                n3 = n1 + n2;
-                n1 = n2;
-                n2 = n3;
-            }
-        }
-        findFibo(15)
-        // Factorial number
-        function findFactorial(p) {
-            if (p === 0 || p === 1) {
-                return 1;
-
-            } else {
-                return p * findFactorial(p - 1)
-            }
-        }
-        let value = 5
-        let result = findFactorial(value)
-        console.log(`Factorial of ${value} is: ${result}`);
+        console.log(value);
     </script>
 </body>
 
