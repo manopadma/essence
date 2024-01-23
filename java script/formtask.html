@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form name="basicDetails" onsubmit=" return validateData()">
+        <label>Name</label><br>
+        <input type="text" name="userName" placeholder="Enter your Name"><br>
+        <label>password</label><br>
+        <input type="password" name="password" placeholder="Enter password"><br>
+        <label>Email</label>
+        <input type="email" name="Email" placeholder="Enter your valid Mail-Id"><br>
+        <input type="submit" value="submit">
+
+
+
+    </form>
+    <script>
+        function validateData() {
+            let uName = document.forms['basicDetails']['userName'].value;
+            let pWord = document.forms['basicDetails']['password'].value;
+            let mail = document.forms['basicDetails']['Email'].value;
+            let namePattern = /^[a-zA-Z]+$/;
+            let passwordPattern = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/;
+            let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (uName == "") {
+                alert("Please enter name");
+            } else if (!namePattern.test(uName)) {
+                alert("Name should only contain letters");
+            } else if (pWord == '') {
+                alert("Please enter password");
+            } else if (!passwordPattern.test(pWord)) {
+                alert("Password should be at least 8 characters long and include both letters and numbers");
+            } else if (!emailPattern.test(mail)) {
+                alert("Please enter a valid email address");
+
+            }
+            else {
+                alert("Login success");
+            }
+
+            return false;
+        }
+
+    </script>
+</body>
+
+</html>

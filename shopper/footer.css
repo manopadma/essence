@@ -1,4 +1,4 @@
-.inner-navigators {
+/* .inner-navigators {
   display: flex;
   flex-direction: column;
 }
@@ -83,4 +83,13 @@
       
     }
   }
-} */
+} */ */
+.footerMainBlock{
+  display: flex;
+}
+.navigation{
+  display: flex;
+}
+.footerPart2{
+ display: flex; 
+}
