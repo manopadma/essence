@@ -9,29 +9,61 @@
 
 <body>
 
+    <p id="displayDate" onclick="dateDis()">display the current date</p>
+    <p></p>
 
-    <form name="my-form" onsubmit=" return validate()">
+    <input type="text" id="name" oninput="disUpper()">
+    <!-- <form name="my-form" onsubmit=" return validate()">
         <label>Name: </label> <input type="text" placeholder="Enter your name" name="username"><br>
         <label>password: </label> <input type="password" placeholder="Enter your password" name="password"><br>
         <input type="submit" value="submit">
 
-    </form>
+    </form> -->
 
+    <h2 onmouseover="mOver(this)" onmouseout="mOut(this)">Heading Tag for mouse over and mouse over out</h2>
+
+    <button onmousedown="mDwn(this)" onmouseup="mUp(this)">click me</button>
     <script>
-        function validate() {
-            let mydata = document.forms['my-form']['username'].value;
-            let myPass = document.forms['my-form']['password'].value;
-            if (mydata == "") {
-                alert("Please enter name")
-            }
-            else if (myPass == '') {
-                alert("Please enter password")
-            } else {
-                alert("login success")
-            }
-            return false;
+
+        function mDwn(down) {
+            down.innerHTML = "release me"
+        }
+        function mUp(up) {
+            up.innerHTML = "thank you"
 
         }
+        function mOver(titleHead) {
+            titleHead.innerHTML = "Successfully working mouse over"
+        }
+
+        function mOut(titleSecondHead) {
+            titleSecondHead.innerHTML = "Successfully working mouse out"
+        }
+        function dateDis() {
+            document.getElementById('displayDate').innerHTML = Date()
+
+        }
+        function disUpper() {
+            var nameData = document.getElementById('name');
+            nameData.value = nameData.value.toUpperCase();
+            console.log(nameData, "")
+
+        }
+
+        // function validate() {
+        //     let mydata = document.forms['my-form']['username'].value;
+        //     let myPass = document.forms['my-form']['password'].value;
+        //     if (mydata == "") {
+        //         alert("Please enter name")
+        //     }
+        //     else if (myPass == '') {
+        //         alert("Please enter password")
+        //     } else {
+        //         alert("login success")
+        //     }
+        //     return false;
+
+        // }
     </script>
 
 </body>

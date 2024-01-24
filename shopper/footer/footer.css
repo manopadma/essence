@@ -1,0 +1,38 @@
+.first-inner-nav {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+.inner-navi-main-con {
+  display: flex;
+  gap: 50px;
+}
+.heading-navi {
+  font-weight: bold;
+}
+.main-container {
+  display: flex;
+  justify-content: space-around;
+}
+.contact-info-div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.image-div {
+  width: 400px;
+}
+.Subscribe-Btn{
+    height: 23px;
+    width: 56px;
+    border: 1px solid grey;
+    position: absolute;
+    right: 52px;
+    bottom: 0px;
+}
+.Subscribe-Div{
+    position: relative;
+}
+.subEmailDiv{
+height: 19px;
+}
