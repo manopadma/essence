@@ -1,0 +1,29 @@
+.footerMainBlock {
+  display: flex;
+}
+.navigation {
+  display: flex;
+}
+.navigationList1 {
+    
+    line-height: 28px;
+    padding-right: 75px;
+}
+.navigationList2 {
+    
+    line-height: 28px;
+    padding-right: 75px;
+}
+.navigationList1 {
+    
+    line-height: 28px;
+    padding-right: 75px;
+}
+
+.footerDivision {
+  display: flex;
+}
+.footerPart2{
+    display: flex;
+    padding-left: 22%;
+}

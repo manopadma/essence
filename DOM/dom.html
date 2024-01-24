@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h2>JavaScript HTML DOM</h2>
+
+    <!-- <div id="main">
+        <p>Finding HTML Elements by Tag Name</p>
+        <p>This example demonstrates the <b>getElementsByTagName</b> method.</p>
+    </div> -->
+
+    <!-- class namw -->
+
+    <!-- <div id="main-cls">
+        <p class="cls1">Finding HTML Elements by Tag Name</p>
+        <p class="cls1">This example demonstrates the <b>getElementsByClassName</b> method.</p>
+    </div> -->
+
+
+
+    <!-- querySelectorAll -->
+    <h1>querySelectorAll</h1>
+    <h1 class="wel">welcome</h1>
+    <h1>Ocean academy</h1>
+    <p id="demo"></p>
+    <script>
+        // const x = document.getElementById("main");
+        // const y = x.getElementsByTagName("p");
+
+        // document.getElementById("demo").innerHTML =
+        //     'The first paragraph (index 0) inside "main" is: ' + y[2].innerHTML;
+
+        // let x = document.getElementById('main-cls');
+        // let y = x.getElementsByClassName('cls1');
+        // console.log(y[1])
+
+
+        const getMsg = document.querySelectorAll("h1.wel");
+        const data = document.getElementById('demo').innerHTML = "the welcome message is" + getMsg;
+
+        console.log(getMsg, "getMsg")
+    </script>
+
+</body>
+
+</html>

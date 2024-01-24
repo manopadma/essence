@@ -1,68 +1,92 @@
 /* menubar */
 .main-head {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     position: sticky;
     top: 0;
     border: 2px black;
     width: 100%;
     padding: 16px;
 }
-.header1{
-            display: flex;
-        margin-left: 120px;
-        
-}
-.header2{
+
+.header1 {
     display: flex;
-    margin-right: 120px;
+
+    align-items: center;
+
 }
-.icon{
+
+.header2 {
+    display: flex;
+justify-content: center;
+    align-items: center;
+        gap: 15px;
+}
+
+.icon {
     gap: 10px;
 }
+
 .nav-bar ul {
     display: flex;
     justify-content: space-around;
     gap: 20px;
-  }
-  .nav-bar ul li {
+    cursor: pointer;
+}
+
+.nav-bar ul li {
     display: inline-block;
-  }
-  .nav-bar ul li:hover {
+}
+
+.nav-bar ul li:hover {
     color: brown;
-  }
-  .heart{
-    border: 2px solid grey;  }
-    .view-btn {
-        border: none;
-        height: 48px;
-        width: 184px;
-        text-align: center;
-        
-        background-color: blue;
-        color: white;
-        font-size: 18px;
-    }
-  .main-banner{
+}
+
+.heart {
+    border: 2px solid grey;
+}
+
+.view-btn {
+    border: none;
+    height: 48px;
+    width: 184px;
+    text-align: center;
+
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+}
+.view-btn p{
+    display: inline-block;
+}
+.view-btn p :hover{
+    color: rgb(192, 8, 69);
+}
+
+.main-banner {
     position: relative;
-  }
-  .main-content{
-    position: absolute ;
+}
+
+.main-content {
+    position: absolute;
     top: 30px;
-  }
+}
+
 /* 1st division */
-.mainbanner{
+.mainbanner {
     display: flex;
     position: relative;
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
 .main-content {
-  position: absolute;
-  top: 184px;
-  left: 461px;
-  padding: 9px;
+    position: absolute;
+    top: 184px;
+    left: 461px;
+    padding: 9px;
 }
+
 .btn {
     border: none;
     height: 26px;
@@ -73,48 +97,57 @@
     color: white;
     font-size: 18px;
 }
+
 /* second division */
-.dress-content{
+.dress-content {
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 30px;
 }
-.col1{
+
+.col1 {
     position: relative;
 }
-.Clothing-heading{
+
+.Clothing-heading {
     position: absolute;
     left: 50%;
     top: 35%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     color: black;
     font-weight: bold;
     font-size: 28px;
 }
-.Clothing-heading:hover{
+
+.Clothing-heading:hover {
     color: blue;
 }
-.img-cls{
+
+.img-cls {
     opacity: 0.5;
 }
+
 /* third division */
-.content1{
+.content1 {
     display: flex;
     flex-wrap: wrap;
     position: relative;
     justify-content: center;
     margin-top: 65px;
 }
+
 .offer-content {
     position: absolute;
     top: 154px;
     right: 22%;
 }
-.offer-img{
+
+.offer-img {
     position: relative;
 }
+
 .view-btn {
     border: none;
     height: 39px;
@@ -124,41 +157,45 @@
     color: white;
     font-size: 18px;
 }
-.view-btn :hover{
-background-color: rgb(201, 43, 96);
+
+.view-btn :hover {
+    background-color: rgb(201, 43, 96);
 }
+
 /* brand division */
-.brand-block{
+.brand-block {
     position: relative;
     z-index: 1;
     background-color: #f5f7f9;
     padding: 100px 5%;
     margin-top: 65px;
 }
-.brand{
+
+.brand {
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
     justify-content: space-around;
 
 }
+
 /* collection division */
-.popular-img
-{
+.popular-img {
     display: flex;
     position: relative;
     gap: 5px;
     justify-content: space-around;
     margin-top: 65px;
 }
-.brand-name{
+
+.brand-name {
     position: absolute;
     left: 122px;
     bottom: -111px;
     font-size: 16px;
 }
-    
-.brand-name1{
+
+.brand-name1 {
     position: absolute;
     bottom: -107px;
     left: 582px;
@@ -166,7 +203,7 @@ background-color: rgb(201, 43, 96);
 }
 
 
-.brand-name2{
+.brand-name2 {
     position: absolute;
     bottom: -85px;
     top: 343px;
@@ -175,7 +212,8 @@ background-color: rgb(201, 43, 96);
     line-height: 20px;
 
 }
-.brand-name3{
+
+.brand-name3 {
     line-height: 17.5px;
     position: absolute;
     right: 100px;
@@ -183,25 +221,29 @@ background-color: rgb(201, 43, 96);
     left: 1573px;
     font-size: 15px;
 }
+
 /* footer division */
-.footer-area{
-   
+.footer-area {
+
     background-color: rgb(22 15 15 / 87%);
-    margin
+
     position: relative;
     margin-top: 129px;
     padding: 85px 0 80px;
     justify-content: center;
     width: 100%;
 }
+
 .footer-part1 {
     display: flex;
     gap: 20px;
     justify-content: center;
 }
-.footer-img{
+
+.footer-img {
     padding-top: 23px;
 }
+
 .footer-list {
     display: flex;
     gap: 20px;
@@ -209,33 +251,37 @@ background-color: rgb(201, 43, 96);
     padding: 10px;
     margin-left: 14px;
 }
+
 .footer-list2 {
     color: azure;
     margin-left: 64px;
-   
+
 }
 
 .footer-list3 {
     color: azure;
     margin-left: 120px;
 }
-.subcribe-container{
+
+.subcribe-container {
     display: grid;
 }
-.subcribe{
+
+.subcribe {
     display: flex;
 }
+
 .last-row {
     display: flex;
-    margin-left: 582px;
+    margin-left: 22%;
 }
-
 
 .footer-icon {
-    display: flex;
-    gap: 25px;
-    margin-left: 178px;
-}
+        display: flex;
+            gap: 32px;
+            margin-left: 17%;
+            color: white;
+        }
 
 
 .last-row2 {
@@ -243,21 +289,26 @@ background-color: rgb(201, 43, 96);
     justify-content: center;
     margin-left: "-80px";
     padding: 42px;
-   
+
 }
-.popular-products-main{
+
+.popular-products-main {
     display: flex;
     gap: 30px;
     justify-content: center;
 }
 
 /* section */
-.second-main-container{
-        width: 85%;
-            /* border: 1px solid red; */
-            margin: auto;
+.second-main-container {
+    width: 85%;
+    /* border: 1px solid red; */
+    margin: auto;
 }
 
-.img-class{
+.img-class {
     background-image: url('https: //preview.colorlib.com/theme/essence/img/bg-img/bg-1.jpg');
+}
+.icon-class-nav{
+    display: flex;
+    gap: 34px;
 }

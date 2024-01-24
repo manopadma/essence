@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+// global scope
+        let id = 12;
+
+        function myfunc() {
+            console.log(id, "id")   // 12
+        }
+        myfunc();
+
+        // 
+
+        function func1() {
+            id = 15;
+            console.log(id, "funct 1")  //15
+        }
+        console.log(id, "funct 1")  // 12
+        func1()
+
+
+
+        // local scope
+
+        let n1 = 100;
+        function addFunc() {
+            let n2 = 200;
+            console.log(n1 + n2, "inner function")  // 300
+        }
+        addFunc()
+        console.log(n1 + n2, "outer function")  // n2 is not defined
+    </script>
+
+</body>
+
+</html>

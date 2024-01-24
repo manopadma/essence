@@ -1,0 +1,31 @@
+.site-block{
+    display: flex;
+    justify-content: space-around;
+    background-color: white ;
+    border-bottom: 1px solid rgba(211, 199, 199, 0.637);
+    padding-bottom: 40px;
+}
+.site-text1{
+    display: flex;
+    gap: 3px;
+}
+.site-text2 {
+    display: flex;
+    gap: 5px;
+}
+.site-text3 {
+    display: flex;
+    gap: 5px;
+}
+.fa fa-refresh{
+    position: relative;
+    gap: 30px;
+}
+.fa fa-truck{
+    position: relative;
+        gap: 30px;
+    }
+.fa fa-question{
+    position: relative;
+        gap: 30px;
+}

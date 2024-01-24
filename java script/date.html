@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+        // Date()
+
+        var todayDate = new Date(1703249727564);
+        console.log(todayDate, "todayDate")
+
+        var findDate = new Date("12-11-1993");  // MM-DD-YYYY
+        console.log(findDate, "findDate")
+
+        var findDate1 = new Date("Mar-11-1993");  // MM-DD-YYYY
+        console.log(findDate1, "findDate1")
+
+        // getDate()
+        const getDateMethod = todayDate.getDate()
+        console.log(getDateMethod, "getDateMethod")
+
+        // getDay()
+        const getDayMethod = todayDate.getDay()
+        console.log(getDayMethod, "getDayMethod")
+
+        // getMonth()
+        const getMonthMethod = todayDate.getMonth()
+        console.log(getMonthMethod, "getMonthMethod")
+
+
+        const NowProperty = Date.now();   // no:of milliseconds from jan 1 1970
+        console.log(NowProperty, "NowProperty")
+
+        var a = 1703249727564, b = 1703249722910
+
+        var c = a - b;
+        console.log(c, "cccccccccccccc")
+
+        // getHours()
+        const getHoursMethod = todayDate.getHours();
+        console.log(getHoursMethod, "getHoursMethod");
+
+        // getminutes()
+        const getMinutesMethod = todayDate.getMinutes()
+        console.log(getMinutesMethod, "getMinutesMethod");
+
+        // getseconds
+        const getSecondsMethod = todayDate.getSeconds()
+        console.log(getSecondsMethod, "getSecondsMethod");
+        const newDate = new Date(2021, 1)
+        console.log(newDate, "newDate");
+        // setFullYear()
+        const setyearMethod = new Date("2022, July 25 ,4, 30, 0")
+        setyearMethod.setFullYear(2020);
+        console.log(setyearMethod, "setyearMethod");
+        const time = new Date;
+        const utcDate = time.getUTCDate();
+        console.log(utcDate);
+    </script>
+
+</body>
+
+</html>

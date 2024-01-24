@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // method 1
+        var arr = ["adc8346239122", "person 1", 8329723432, "check", 100000];
+        console.log(arr, "array")
+
+
+        // length
+        var arrayLength = arr.length;
+        console.log(arrayLength, "arrayLength");
+        // toString
+        console.log(arr.toString(), "to string");
+        // pop()- > it removes element from last index
+        console.log(arr.pop(), "pop data");
+        console.log(arr, "array")
+        // push() -> it add element from last index
+        console.log(arr.push(120000), "push data");
+        console.log(arr, "push data")
+        // shift()- > it removes element from 1st index
+        console.log(arr.shift());
+        console.log(arr, "shift() data")
+        // unshift() -> it add element from 1st index
+        console.log(arr.unshift("no:12,aaa street"));
+        console.log(arr, "unshift() data")
+
+        // flat()
+        var numberDatas = [[12, 56], [2, 0], [90, 3]];
+        console.log(numberDatas, "numberDatas")
+        console.log(numberDatas.flat(), "flat data");
+
+        // concat
+        var concatSingleEle = arr.concat('pondicherry')
+        console.log(concatSingleEle, "concat data")
+
+        var arr1 = ["cse", "it"];
+        var arr2 = ["ece", "mech"];
+        var concatTwoArray = arr1.concat(arr2);
+        console.log(concatTwoArray, "concatTwoArray")
+
+        // splice() -> add element
+
+        var spliceArray = ["mobile", "watch", "dress"];
+        var finalSpliceOutPut = spliceArray.splice(2, 0, "bottles");
+        console.log(spliceArray, "spliceArray")
+
+        const fruits = ["Banana", "Orange", "Apple", "Mango"];
+        delete fruits[2];
+        console.log(fruits, "fruits")
+    </script>
+
+</body>
+
+</html>

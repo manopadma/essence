@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // Area of Rectangle
+        function areaofRectangle(a, b) {
+            return `The area of rectangle is ${a * b}`;
+        }
+        console.log(areaofRectangle(10, 12), "Area of Rectangle");
+        // Arithmetic operation in Javascript
+        function arithmeticOperation(p, q) {
+            var add, sub, mul, div;
+            add = p + q;
+            console.log(add, "Addition Values of Arithmetic operations")
+            sub = p - q;
+            console.log(sub, "Subtraction Values of Arithmetic operations")
+            mul = p * q;
+            console.log(mul, "Multiplication Values of Arithmetic operations")
+            div = p / q;
+            console.log(div, "Dividing Values of Arithmetic operations")
+        }
+        arithmeticOperation(10, 10)
+        // 1. print the “Hello World” message
+        var message = prompt("Text to print message")
+        function displayData(message) {
+            console.log(message, "Printing Text");
+        }
+        displayData(message)
+
+        // 2.square of a number
+        var num1 = prompt("Enter the 'A' value")
+
+        var squreData;
+        function squreValue(num1) {
+            squreData = num1 * num1;
+            console.log(squreData, "Square Value of Given Number");
+        }
+        squreValue(num1)
+        // 3.function to convert Celsius to Fahrenheit
+        var val;
+        val = prompt("Enter the Celcius Value")
+        function celciusToFahrenheit(val) {
+            var value = (val * 9 / 5) + 32;
+            console.log(value, "The value of Celcius to fahrenheit");
+        }
+        celciusToFahrenheit(val)
+        //  4.function to find the area and perimeter of a Circle
+        var area, perimeter;
+        var radius = prompt("Enter the Radius Value")
+        function circleValues(radius) {
+            perimeter = 2 * Math.PI * rad;
+            area = Math.PI * rad * rad;
+            console.log("The perimeter value  of circle ", perimeter);
+            console.log("Area Value of circle", area);
+        }
+        circleValues(radius)
+    </script>
+</body>
+
+</html>

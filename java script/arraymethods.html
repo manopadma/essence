@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // // length
+        var txt = ["Bala", "1234", 2354811, "New Employee"];
+        // var txtlength = txt.length;
+        console.log("length of array is ", txt.length)
+        // // to string
+        console.log(txt.toString(), "To String");
+        // //  pop
+        console.log(txt.pop(), "Pop")
+        console.log("Pop Data ", txt);
+        // push
+        console.log(txt.push("ag102.balaji@gmail.com"));
+        console.log("Push Data ", txt);
+        // shift
+        console.log(txt.shift());
+        console.log("Shift Datas ", txt);
+        // unshift
+        console.log(txt.unshift("Sl.no:1"));
+        console.log("Unshift Datas ", txt);
+        // flat
+        var numbers = [[3, 5], [4, 7], [9.10]]
+        console.log(numbers.flat())
+        console.log("Flat Datas is ", numbers);
+        // Concat
+        var addData = txt.concat("Technical Dept")
+        console.log("Concate Datas is ", addData);
+        console.log(txt);
+        // splice
+        var fruits = ["Banana", "Orange", "Grapes", "Apple", "Lemon"];
+        var finalSpliceOutPut = fruits.splice(1, 0, "Papaya");
+        console.log("The Splice Datas is ", finalSpliceOutPut);
+        console.log(fruits);
+        // slice
+
+        var sliceData = fruits.slice(1, 3);
+        console.log("Slice Datas is ", sliceData);
+        console.log(fruits);
+        // Join
+        let joinData = fruits.join("  and  ")
+        console.log("The Join Data is ", joinData);
+        console.log(fruits);
+        // Delete
+        delete fruits[4]
+        console.log("The Delete Data is ", fruits);
+        console.log(fruits);
+
+    </script>
+
+</body>
+
+</html>

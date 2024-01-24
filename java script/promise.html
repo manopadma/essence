@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        // promise - is used to handle asynchronous operation
+        // synchronous - wait 
+        // Async - never wait
+
+        // three states of promise 
+        // 1 . Pending - initial state of promise
+        // 2. fulfilled - the task successfully 
+        //  3. reject - error
+        var a = 12;
+        var promiseData = new Promise((resolve, reject) => {
+
+            if (a == 10) {
+                resolve("a is equal to 10")
+            } else {
+                reject("not equal")
+            }
+        })
+        promiseData.then((msg) => {
+            console.log(msg, "success msg")
+        }).catch((fail) => {
+            console.log(fail, "reject msg")
+        })
+        // console.log(promiseData)
+    </script>
+
+</body>
+
+</html>
