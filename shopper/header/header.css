@@ -1,0 +1,19 @@
+.headerPart2 {
+    border: 2px solid black;
+    height: 38px;
+    width: 108px;
+}
+.headerPart3{
+    display: flex;
+    gap: 10px;
+}
+.headerMainBlock{
+    display: flex;
+    justify-content: space-evenly;
+}
+.headerSecondBlock{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 82px;
+}

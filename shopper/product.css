@@ -17,10 +17,10 @@
    background-color: white;
 }
 .mainProduct {
-  display: flex;
-  padding-left: 17%;
-  gap: 20px;
-  padding-top: 50px;
+    display: flex;
+    gap: 20px;
+    padding-top: 50px;
+    justify-content: center;
 }
 .text{
 text-align: center;
@@ -32,7 +32,7 @@ color: rgb(94, 23, 157);
 }
 
 .productMainBlock{
-  background-color: rgba(220, 211, 211, 0.881);
+ background-color: #d3d3d352;
   height: 100%;
   width: 100%;
   padding-bottom: 90px;
@@ -40,4 +40,7 @@ color: rgb(94, 23, 157);
 .productHeading{
   text-align: center;
 
+}
+a :hover{
+  color: blue;
 }
