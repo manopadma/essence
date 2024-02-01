@@ -1,0 +1,57 @@
+.mainDesignBlock {
+  height: 700px;
+  width: 400px;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: maroon;
+}
+.inputText {
+  height: 150px;
+  width: 390px;
+  background-color: brown;
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+  text-align: center;
+  color: black;
+}
+.operators {
+  display: flex;
+  height: 100px;
+  width: 390px;
+  border: 2px solid black;
+  border-radius: 30px;
+  justify-content: space-evenly;
+}
+.operatorSymbol {
+  /* display: flex;
+    flex-direction: row; */
+  height: 60px;
+  width: 70px;
+  border: 1px solid black;
+  border-radius: 20px;
+  text-align: center;
+  color: black;
+  font-weight: bolder;
+  justify-content: space-evenly;
+}
+.numbersBlock {
+  display: flex;
+  height: 100px;
+  width: 390px;
+  border: 2px solid black;
+  border-radius: 30px;
+  justify-content: space-evenly;
+}
+.numbers {
+  /* display: flex; */
+  /* flex-direction: row; */
+  height: 60px;
+  width: 70px;
+  border: 1px solid black;
+  border-radius: 20px;
+  text-align: center;
+  color: black;
+  font-weight: bolder;
+  align-items: center;
+}
