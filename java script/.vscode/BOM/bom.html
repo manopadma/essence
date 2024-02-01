@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // screen.width
+        console.log(screen.width, "width")
+        // screen.height
+        console.log(screen.height, "height");
+        // avail width
+        console.log(screen.availWidth);
+        // avail height
+        console.log(screen.availHeight);
+
+        // location
+        console.log(window.location.href, "href")
+        console.log(window.location.pathname, "pathname");
+        console.log(location.hostname);
+        console.log((location.protocol));
+        console.log(location.origin);
+        console.log(location.port);
+        // console.log(location.assign("https://www.w3schools.com"));
+        // console.log(location.reload());
+
+        // history
+        console.log(window.history.back());
+        // navigator
+        console.log(navigator.appCodeName, "app");
+        function myClickEvent() {
+            alert('Hello Everyone')
+        }
+
+    </script>
+    <button type="button" onclick="setTimeout(myClickEvent,3000)">click</button>
+    <button type="button" onclick="clearTimeout(myClickEvent)">Stop</button>
+</body>
+
+</html>

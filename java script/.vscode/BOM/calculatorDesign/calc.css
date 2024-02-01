@@ -1,0 +1,92 @@
+.calcMainBlock {
+  height: 750px;
+  width: 400px;
+  border: 3px solid gray;
+}
+#inputText {
+  height: 200px;
+  width: 390px;
+  text-align: center;
+  border-radius: 30px;
+  gap: 30px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.mathOperation {
+  border: 1px solid black;
+  height: 80px;
+  width: 384px;
+  text-align: center;
+  border-radius: 1px;
+  color: black;
+  /* background-color: brown; */
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+}
+.sum {
+  border: 3px solid;
+  color: black;
+  height: 38px;
+  width: 30px;
+  padding: 12px;
+  margin: 10px 7px 8px;
+  /* text-align: center; */
+  font-size: xx-large;
+  text-align: center;
+}
+.minus {
+  border: 3px solid;
+  color: black;
+  height: 38px;
+  width: 30px;
+  padding: 12px;
+  margin: 10px 7px 8px;
+  /* text-align: center; */
+  font-size: xx-large;
+  text-align: center;
+}
+.mul {
+  border: 3px solid;
+  color: black;
+  height: 38px;
+  width: 30px;
+  padding: 12px;
+  margin: 10px 7px 8px;
+  /* text-align: center; */
+  font-size: xx-large;
+  text-align: center;
+}
+.division {
+  border: 3px solid;
+  color: black;
+  height: 38px;
+  width: 30px;
+  padding: 12px;
+  margin: 10px 7px 8px;
+  /* text-align: center; */
+  font-size: xx-large;
+  text-align: center;
+}
+.numbersColumnn {
+  border: 1px solid black;
+  height: 80px;
+  width: 384px;
+  text-align: center;
+  border-radius: 1px;
+  color: black;
+  /* background-color: brown; */
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+}
+.numbers {
+  border: 3px solid;
+  color: black;
+  height: 38px;
+  width: 30px;
+  padding: 12px;
+  margin: 10px 7px 8px;
+  font-size: xx-large;
+  text-align: center;
+}
